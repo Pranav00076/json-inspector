@@ -1,0 +1,19 @@
+
+{
+  "name": "json-inspector-pro-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "playground"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:core": "vitest run packages/core/tests"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.0"
+  }
+}

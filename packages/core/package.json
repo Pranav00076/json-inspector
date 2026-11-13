@@ -1,0 +1,38 @@
+
+{
+  "name": "json-inspector-pro",
+  "version": "0.1.0",
+  "description": "A lightweight toolkit for JSON inspection, search, comparison, validation and TypeScript generation.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false,
+  "files": [
+    "src/",
+    "types/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "json",
+    "json-inspector",
+    "json-search",
+    "json-diff",
+    "json-validator",
+    "typescript-generator",
+    "developer-tools",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT"
+}
