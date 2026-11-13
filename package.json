@@ -1,8 +1,7 @@
 
 {
   "name": "json-inspector-pro-workspace",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.1.0",
   "type": "module",
   "workspaces": [
     "packages/*",
